@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  CollectorViewController.h
 //  CollectorNaivgation
 //
 //  Created by xuzhaocheng on 15/11/19.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface CollectorViewController : UIViewController
 
 @end
-

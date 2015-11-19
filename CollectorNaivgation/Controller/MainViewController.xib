@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="8191" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MainViewController">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="main_bg" translatesAutoresizingMaskIntoConstraints="NO" id="QwG-3L-4F5">
+                    <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                    <animations/>
+                </imageView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hCL-Kt-4Q3" userLabel="Container View">
+                    <rect key="frame" x="45" y="200" width="510" height="200"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Q0N-uS-7sB">
+                            <rect key="frame" x="96" y="29" width="319" height="45"/>
+                            <animations/>
+                            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.69999999999999996" colorSpace="calibratedRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="319" id="2im-jW-3fe"/>
+                                <constraint firstAttribute="height" constant="45" id="XPp-Bq-1u9"/>
+                            </constraints>
+                            <state key="normal" title="扫码导览"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                    <integer key="value" value="20"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="I5e-k9-erM">
+                            <rect key="frame" x="96" y="127" width="319" height="45"/>
+                            <animations/>
+                            <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.69999999999999996" colorSpace="calibratedRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="319" id="7tW-Ig-dBJ"/>
+                                <constraint firstAttribute="height" constant="45" id="gre-73-ssK"/>
+                            </constraints>
+                            <state key="normal" title="智能导览">
+                                <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="0.69999999999999996" colorSpace="calibratedRGB"/>
+                            </state>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                    <integer key="value" value="20"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                            <connections>
+                                <action selector="showNavigationPage:" destination="-1" eventType="touchUpInside" id="uNk-Fi-vPF"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <animations/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="I5e-k9-erM" secondAttribute="trailing" constant="8" id="2Ot-Lc-hGa"/>
+                        <constraint firstItem="I5e-k9-erM" firstAttribute="leading" secondItem="hCL-Kt-4Q3" secondAttribute="leading" constant="8" id="Hmo-4U-jQz"/>
+                        <constraint firstAttribute="height" constant="200" id="INn-Vb-mxf"/>
+                        <constraint firstAttribute="bottom" secondItem="I5e-k9-erM" secondAttribute="bottom" constant="28" id="JDq-tX-4z7"/>
+                        <constraint firstItem="I5e-k9-erM" firstAttribute="top" secondItem="Q0N-uS-7sB" secondAttribute="bottom" constant="57" id="UY5-y4-xcw"/>
+                        <constraint firstItem="Q0N-uS-7sB" firstAttribute="leading" secondItem="hCL-Kt-4Q3" secondAttribute="leading" constant="96" id="WW5-vd-vIh"/>
+                        <constraint firstItem="Q0N-uS-7sB" firstAttribute="centerX" secondItem="hCL-Kt-4Q3" secondAttribute="centerX" id="bIO-OU-zjX"/>
+                        <constraint firstAttribute="trailing" secondItem="Q0N-uS-7sB" secondAttribute="trailing" constant="95" id="c57-8k-XHw"/>
+                        <constraint firstItem="I5e-k9-erM" firstAttribute="centerX" secondItem="hCL-Kt-4Q3" secondAttribute="centerX" id="cEc-7N-uQM"/>
+                        <constraint firstItem="I5e-k9-erM" firstAttribute="top" secondItem="Q0N-uS-7sB" secondAttribute="bottom" constant="57" id="kHW-9Z-uug"/>
+                        <constraint firstItem="I5e-k9-erM" firstAttribute="top" secondItem="Q0N-uS-7sB" secondAttribute="bottom" constant="57" id="lpu-GS-xNN"/>
+                        <constraint firstItem="Q0N-uS-7sB" firstAttribute="top" secondItem="hCL-Kt-4Q3" secondAttribute="top" constant="29" id="oZM-1V-a2x"/>
+                    </constraints>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="WW5-vd-vIh"/>
+                            <exclude reference="c57-8k-XHw"/>
+                            <exclude reference="2Ot-Lc-hGa"/>
+                            <exclude reference="Hmo-4U-jQz"/>
+                            <exclude reference="UY5-y4-xcw"/>
+                            <exclude reference="kHW-9Z-uug"/>
+                            <exclude reference="lpu-GS-xNN"/>
+                        </mask>
+                    </variation>
+                </view>
+            </subviews>
+            <animations/>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="hCL-Kt-4Q3" secondAttribute="trailing" constant="45" id="Iwd-jI-GZU"/>
+                <constraint firstItem="hCL-Kt-4Q3" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="JZQ-cr-2dB"/>
+                <constraint firstAttribute="bottom" secondItem="QwG-3L-4F5" secondAttribute="bottom" id="Lh3-cn-YN0"/>
+                <constraint firstAttribute="trailing" secondItem="QwG-3L-4F5" secondAttribute="trailing" id="Ra2-1A-FcF"/>
+                <constraint firstItem="hCL-Kt-4Q3" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="SdK-wm-bm6"/>
+                <constraint firstItem="hCL-Kt-4Q3" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="45" id="URw-Ax-wXR"/>
+                <constraint firstItem="QwG-3L-4F5" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="c6p-cF-Dyc"/>
+                <constraint firstItem="QwG-3L-4F5" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="qH9-Bg-22k"/>
+                <constraint firstItem="hCL-Kt-4Q3" firstAttribute="leading" secondItem="QwG-3L-4F5" secondAttribute="trailing" constant="-555" id="zby-C7-pSx"/>
+            </constraints>
+            <variation key="default">
+                <mask key="constraints">
+                    <exclude reference="zby-C7-pSx"/>
+                </mask>
+            </variation>
+            <point key="canvasLocation" x="664" y="434"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="main_bg" width="320" height="568"/>
+    </resources>
+</document>

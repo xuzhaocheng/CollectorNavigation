@@ -9,12 +9,20 @@
 /* Begin PBXBuildFile section */
 		6BC609E81BFD8CFE00CF565C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BC609E71BFD8CFE00CF565C /* main.m */; };
 		6BC609EB1BFD8CFE00CF565C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BC609EA1BFD8CFE00CF565C /* AppDelegate.m */; };
-		6BC609EE1BFD8CFE00CF565C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BC609ED1BFD8CFE00CF565C /* ViewController.m */; };
 		6BC609F11BFD8CFE00CF565C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6BC609EF1BFD8CFE00CF565C /* Main.storyboard */; };
 		6BC609F31BFD8CFE00CF565C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6BC609F21BFD8CFE00CF565C /* Assets.xcassets */; };
 		6BC609F61BFD8CFE00CF565C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6BC609F41BFD8CFE00CF565C /* LaunchScreen.storyboard */; };
 		6BC60A011BFD8CFE00CF565C /* CollectorNaivgationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BC60A001BFD8CFE00CF565C /* CollectorNaivgationTests.m */; };
 		6BC60A0C1BFD8CFE00CF565C /* CollectorNaivgationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BC60A0B1BFD8CFE00CF565C /* CollectorNaivgationUITests.m */; };
+		6BC60A1B1BFD927500CF565C /* Collector.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BC60A1A1BFD927500CF565C /* Collector.m */; settings = {ASSET_TAGS = (); }; };
+		6BC60A2C1BFDA4B800CF565C /* CollectorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BC60A2A1BFDA4B800CF565C /* CollectorViewController.m */; settings = {ASSET_TAGS = (); }; };
+		6BC60A2D1BFDA4B800CF565C /* CollectorViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6BC60A2B1BFDA4B800CF565C /* CollectorViewController.xib */; settings = {ASSET_TAGS = (); }; };
+		6BC60A311BFDA4CD00CF565C /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BC60A2F1BFDA4CD00CF565C /* MainViewController.m */; settings = {ASSET_TAGS = (); }; };
+		6BC60A321BFDA4CD00CF565C /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6BC60A301BFDA4CD00CF565C /* MainViewController.xib */; settings = {ASSET_TAGS = (); }; };
+		6BC60A351BFDAD6000CF565C /* ResponseObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BC60A341BFDAD6000CF565C /* ResponseObject.m */; settings = {ASSET_TAGS = (); }; };
+		6BC60A3D1BFDB0E300CF565C /* NSDictionary+JSONParse.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BC60A3C1BFDB0E300CF565C /* NSDictionary+JSONParse.m */; settings = {ASSET_TAGS = (); }; };
+		6BC60A401BFDB57E00CF565C /* APIClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BC60A3F1BFDB57E00CF565C /* APIClient.m */; settings = {ASSET_TAGS = (); }; };
+		9B69DD01B5E84ECDBC71DE88 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 98A3F3CF9EFBFFE0488AB3AB /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,12 +43,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		30FB22AD3496CC0664BB4AAF /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		6BC609E31BFD8CFE00CF565C /* CollectorNaivgation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CollectorNaivgation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6BC609E71BFD8CFE00CF565C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6BC609E91BFD8CFE00CF565C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		6BC609EA1BFD8CFE00CF565C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		6BC609EC1BFD8CFE00CF565C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		6BC609ED1BFD8CFE00CF565C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		6BC609F01BFD8CFE00CF565C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6BC609F21BFD8CFE00CF565C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6BC609F51BFD8CFE00CF565C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +58,23 @@
 		6BC60A071BFD8CFE00CF565C /* CollectorNaivgationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CollectorNaivgationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6BC60A0B1BFD8CFE00CF565C /* CollectorNaivgationUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CollectorNaivgationUITests.m; sourceTree = "<group>"; };
 		6BC60A0D1BFD8CFE00CF565C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6BC60A191BFD927500CF565C /* Collector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Collector.h; path = model/Collector.h; sourceTree = "<group>"; };
+		6BC60A1A1BFD927500CF565C /* Collector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Collector.m; path = model/Collector.m; sourceTree = "<group>"; };
+		6BC60A291BFDA4B800CF565C /* CollectorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CollectorViewController.h; path = Controller/CollectorViewController.h; sourceTree = "<group>"; };
+		6BC60A2A1BFDA4B800CF565C /* CollectorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CollectorViewController.m; path = Controller/CollectorViewController.m; sourceTree = "<group>"; };
+		6BC60A2B1BFDA4B800CF565C /* CollectorViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CollectorViewController.xib; path = Controller/CollectorViewController.xib; sourceTree = "<group>"; };
+		6BC60A2E1BFDA4CD00CF565C /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainViewController.h; path = Controller/MainViewController.h; sourceTree = "<group>"; };
+		6BC60A2F1BFDA4CD00CF565C /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainViewController.m; path = Controller/MainViewController.m; sourceTree = "<group>"; };
+		6BC60A301BFDA4CD00CF565C /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MainViewController.xib; path = Controller/MainViewController.xib; sourceTree = "<group>"; };
+		6BC60A331BFDAD6000CF565C /* ResponseObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ResponseObject.h; path = model/ResponseObject.h; sourceTree = "<group>"; };
+		6BC60A341BFDAD6000CF565C /* ResponseObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ResponseObject.m; path = model/ResponseObject.m; sourceTree = "<group>"; };
+		6BC60A361BFDADDC00CF565C /* ObjectParseProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ObjectParseProtocol.h; path = model/ObjectParseProtocol.h; sourceTree = "<group>"; };
+		6BC60A3B1BFDB0E300CF565C /* NSDictionary+JSONParse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+JSONParse.h"; path = "Category/NSDictionary+JSONParse.h"; sourceTree = "<group>"; };
+		6BC60A3C1BFDB0E300CF565C /* NSDictionary+JSONParse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+JSONParse.m"; path = "Category/NSDictionary+JSONParse.m"; sourceTree = "<group>"; };
+		6BC60A3E1BFDB57E00CF565C /* APIClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = APIClient.h; path = model/APIClient.h; sourceTree = "<group>"; };
+		6BC60A3F1BFDB57E00CF565C /* APIClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = APIClient.m; path = model/APIClient.m; sourceTree = "<group>"; };
+		98A3F3CF9EFBFFE0488AB3AB /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4D862051A76E7BAE37A03BF /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B69DD01B5E84ECDBC71DE88 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +103,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5073514346DDD05EB00782F2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				98A3F3CF9EFBFFE0488AB3AB /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		6BC609DA1BFD8CFE00CF565C = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +118,8 @@
 				6BC609FF1BFD8CFE00CF565C /* CollectorNaivgationTests */,
 				6BC60A0A1BFD8CFE00CF565C /* CollectorNaivgationUITests */,
 				6BC609E41BFD8CFE00CF565C /* Products */,
+				F951C5F7DEB6340AA173EFD7 /* Pods */,
+				5073514346DDD05EB00782F2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,12 +138,10 @@
 			children = (
 				6BC609E91BFD8CFE00CF565C /* AppDelegate.h */,
 				6BC609EA1BFD8CFE00CF565C /* AppDelegate.m */,
-				6BC609EC1BFD8CFE00CF565C /* ViewController.h */,
-				6BC609ED1BFD8CFE00CF565C /* ViewController.m */,
-				6BC609EF1BFD8CFE00CF565C /* Main.storyboard */,
-				6BC609F21BFD8CFE00CF565C /* Assets.xcassets */,
-				6BC609F41BFD8CFE00CF565C /* LaunchScreen.storyboard */,
-				6BC609F71BFD8CFE00CF565C /* Info.plist */,
+				6BC60A411BFDC06800CF565C /* View */,
+				6BC60A201BFD987200CF565C /* Controller */,
+				6BC60A1C1BFD928300CF565C /* Model */,
+				6BC60A3A1BFDB0B200CF565C /* Category */,
 				6BC609E61BFD8CFE00CF565C /* Supporting Files */,
 			);
 			path = CollectorNaivgation;
@@ -117,6 +150,9 @@
 		6BC609E61BFD8CFE00CF565C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				6BC609F21BFD8CFE00CF565C /* Assets.xcassets */,
+				6BC609F41BFD8CFE00CF565C /* LaunchScreen.storyboard */,
+				6BC609F71BFD8CFE00CF565C /* Info.plist */,
 				6BC609E71BFD8CFE00CF565C /* main.m */,
 			);
 			name = "Supporting Files";
@@ -140,6 +176,59 @@
 			path = CollectorNaivgationUITests;
 			sourceTree = "<group>";
 		};
+		6BC60A1C1BFD928300CF565C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6BC60A191BFD927500CF565C /* Collector.h */,
+				6BC60A1A1BFD927500CF565C /* Collector.m */,
+				6BC60A331BFDAD6000CF565C /* ResponseObject.h */,
+				6BC60A341BFDAD6000CF565C /* ResponseObject.m */,
+				6BC60A361BFDADDC00CF565C /* ObjectParseProtocol.h */,
+				6BC60A3E1BFDB57E00CF565C /* APIClient.h */,
+				6BC60A3F1BFDB57E00CF565C /* APIClient.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		6BC60A201BFD987200CF565C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				6BC60A2E1BFDA4CD00CF565C /* MainViewController.h */,
+				6BC60A2F1BFDA4CD00CF565C /* MainViewController.m */,
+				6BC60A301BFDA4CD00CF565C /* MainViewController.xib */,
+				6BC60A291BFDA4B800CF565C /* CollectorViewController.h */,
+				6BC60A2A1BFDA4B800CF565C /* CollectorViewController.m */,
+				6BC60A2B1BFDA4B800CF565C /* CollectorViewController.xib */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		6BC60A3A1BFDB0B200CF565C /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				6BC60A3B1BFDB0E300CF565C /* NSDictionary+JSONParse.h */,
+				6BC60A3C1BFDB0E300CF565C /* NSDictionary+JSONParse.m */,
+			);
+			name = Category;
+			sourceTree = "<group>";
+		};
+		6BC60A411BFDC06800CF565C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6BC609EF1BFD8CFE00CF565C /* Main.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		F951C5F7DEB6340AA173EFD7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				30FB22AD3496CC0664BB4AAF /* Pods.debug.xcconfig */,
+				D4D862051A76E7BAE37A03BF /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +236,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6BC60A101BFD8CFE00CF565C /* Build configuration list for PBXNativeTarget "CollectorNaivgation" */;
 			buildPhases = (
+				3862ACEAD2118354AD11ACA9 /* Check Pods Manifest.lock */,
 				6BC609DF1BFD8CFE00CF565C /* Sources */,
 				6BC609E01BFD8CFE00CF565C /* Frameworks */,
 				6BC609E11BFD8CFE00CF565C /* Resources */,
+				260C91769F2188AE238B3DFD /* Embed Pods Frameworks */,
+				53F6A4D3CA6E424939C83CC0 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -247,6 +339,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				6BC609F61BFD8CFE00CF565C /* LaunchScreen.storyboard in Resources */,
+				6BC60A2D1BFDA4B800CF565C /* CollectorViewController.xib in Resources */,
+				6BC60A321BFDA4CD00CF565C /* MainViewController.xib in Resources */,
 				6BC609F31BFD8CFE00CF565C /* Assets.xcassets in Resources */,
 				6BC609F11BFD8CFE00CF565C /* Main.storyboard in Resources */,
 			);
@@ -268,14 +362,67 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		260C91769F2188AE238B3DFD /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3862ACEAD2118354AD11ACA9 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		53F6A4D3CA6E424939C83CC0 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		6BC609DF1BFD8CFE00CF565C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6BC609EE1BFD8CFE00CF565C /* ViewController.m in Sources */,
+				6BC60A1B1BFD927500CF565C /* Collector.m in Sources */,
+				6BC60A3D1BFDB0E300CF565C /* NSDictionary+JSONParse.m in Sources */,
+				6BC60A351BFDAD6000CF565C /* ResponseObject.m in Sources */,
+				6BC60A2C1BFDA4B800CF565C /* CollectorViewController.m in Sources */,
 				6BC609EB1BFD8CFE00CF565C /* AppDelegate.m in Sources */,
+				6BC60A311BFDA4CD00CF565C /* MainViewController.m in Sources */,
 				6BC609E81BFD8CFE00CF565C /* main.m in Sources */,
+				6BC60A401BFDB57E00CF565C /* APIClient.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,23 +561,29 @@
 		};
 		6BC60A111BFD8CFE00CF565C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 30FB22AD3496CC0664BB4AAF /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CollectorNaivgation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = edu.zju.nmlab.CollectorNaivgation;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		6BC60A121BFD8CFE00CF565C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D4D862051A76E7BAE37A03BF /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CollectorNaivgation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = edu.zju.nmlab.CollectorNaivgation;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -501,6 +654,7 @@
 				6BC60A121BFD8CFE00CF565C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6BC60A131BFD8CFE00CF565C /* Build configuration list for PBXNativeTarget "CollectorNaivgationTests" */ = {
 			isa = XCConfigurationList;
@@ -509,6 +663,7 @@
 				6BC60A151BFD8CFE00CF565C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6BC60A161BFD8CFE00CF565C /* Build configuration list for PBXNativeTarget "CollectorNaivgationUITests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +672,7 @@
 				6BC60A181BFD8CFE00CF565C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
